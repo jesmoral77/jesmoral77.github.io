@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #212529;
-  --bs-link-hover-color: #0085A1;
+  --bs-link-color: #6c757d;
+  --bs-link-hover-color: #6c757d;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -10684,13 +10684,13 @@ header.masthead:before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #212529;
+  background-color: #282828;
   opacity: 0.5;
 }
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  color: #b8bb26;
+  color: #fb4934;
 }
 header.masthead .page-heading,
 header.masthead .site-heading {
