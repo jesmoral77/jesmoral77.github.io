@@ -10674,7 +10674,7 @@ header.masthead {
   padding-bottom: 8rem;
   background: no-repeat center center;
   background-color: #282828;
-  background-size: contain;
+  background-size: cover;
   background-attachment: scroll;
 }
 header.masthead:before {
