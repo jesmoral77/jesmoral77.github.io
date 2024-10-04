@@ -640,6 +640,45 @@ progress {
   margin-left: auto;
 }
 
+.project-tile {
+    padding: 15px;
+}
+
+.github-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #333; /* Background color for the tile */
+    transition: transform 0.3s ease;
+}
+
+.github-link:hover {
+    transform: scale(1.05);
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust height for square shape */
+    text-align: center;
+}
+
+.project-content h3 {
+    margin: 10px 0;
+    font-size: 1.25rem;
+}
+
+.project-content p {
+    font-size: 1rem;
+}
+
+
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -7385,7 +7424,7 @@ textarea.form-control-lg {
 }
 
 .mb-4 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 2.5rem !important;
 }
 
 .mb-5 {
